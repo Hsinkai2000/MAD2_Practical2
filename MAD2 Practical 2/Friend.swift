@@ -11,10 +11,12 @@ import Foundation
 class Friend{
     var firstName: String;
     var lastName: String;
+    var age: Int;
     
-    init(firstName: String, lastName: String) {
+    init(firstName: String, lastName: String, age:Int) {
         self.firstName = firstName;
         self.lastName = lastName;
-        //ss
+        self.age = age;
     }
+    
 }
